@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0ywjk1h2sf24"]
+
+[ext_resource type="Texture2D" uid="uid://c2fnmx12u20md" path="res://Art/PurpleNinja/SpriteSheet.png" id="1_0br0r"]
+[ext_resource type="Script" path="res://Player/player.gd" id="1_cn2xw"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_cn2xw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_0br0r")
+hframes = 4
+vframes = 7

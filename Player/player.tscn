@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://d0ywjk1h2sf24"]
+[gd_scene load_steps=10 format=3 uid="uid://d0ywjk1h2sf24"]
 
 [ext_resource type="Texture2D" uid="uid://c2fnmx12u20md" path="res://Art/PurpleNinja/SpriteSheet.png" id="1_0br0r"]
 [ext_resource type="Script" path="res://Player/player.gd" id="1_cn2xw"]
@@ -98,12 +98,18 @@ _data = {
 "walkUp": SubResource("Animation_0rcl5")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3wm7a"]
+size = Vector2(14, 4)
+
 [node name="Player" type="CharacterBody2D"]
+z_index = 1
+y_sort_enabled = true
 script = ExtResource("1_cn2xw")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
 texture = ExtResource("1_0br0r")
+offset = Vector2(0, -8)
 hframes = 4
 vframes = 7
 
@@ -111,3 +117,7 @@ vframes = 7
 libraries = {
 "": SubResource("AnimationLibrary_jv6pw")
 }
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_3wm7a")

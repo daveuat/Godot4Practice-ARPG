@@ -9,7 +9,8 @@ func handleInput():
 
 func updateAnimation():
 	if velocity.length() == 0:
-		animations.stop()
+		if animations.is_playing():
+			animations.stop()
 	else:
 		var direction = "Down"
 		if velocity.x < 0: direction = "Left"
@@ -21,7 +22,6 @@ func updateAnimation():
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-
 
 func _physics_process(delta):
 	handleInput()

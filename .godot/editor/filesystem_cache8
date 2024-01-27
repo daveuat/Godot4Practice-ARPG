@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705824203
+::res://::1705889076
 icon.svg::CompressedTexture2D::3540727794195938256::1705815990::1705815995::1::::<><>::
 README.md::TextFile::-1::1705820204::0::1::::<><>::
 ::res://Art/::1705824203
@@ -32,7 +32,7 @@ SpriteSheet16x16.png::CompressedTexture2D::7546141850938836::1705824184::1705824
 BottomSheet16x16.png::CompressedTexture2D::7585963994204031998::1705824184::1705824201::1::::<><>::
 MiddleSheet16x16.png::CompressedTexture2D::5975831019696508984::1705824184::1705824201::1::::<><>::
 TopSheet16x16.png::CompressedTexture2D::8319039961260391780::1705824184::1705824201::1::::<><>::
-::res://Art/AnimatedTiles/WaterMill/::1705824184
+::res://Art/AnimatedTiles/WaterMill/::1705824203
 Watermill_A_34x36.png::CompressedTexture2D::421364705301751158::1705824184::1705824203::1::::<><>::
 Watermill_B_34x36.png::CompressedTexture2D::619372910238569551::1705824184::1705824203::1::::<><>::
 ::res://Art/PurpleNinja/::1705818619
@@ -50,8 +50,9 @@ Walk.png::CompressedTexture2D::4665068962521264610::1705818441::1705818619::1:::
 ::res://Art/TileSets/::1705821922
 TilesetFloor.png::CompressedTexture2D::4300360128064237714::1619529435::1705821922::1::::<><>::
 TilesetNature.png::CompressedTexture2D::111419055248502268::1693294974::1705821922::1::::<><>::
-::res://Player/::1705824098
+::res://Player/::1705837956
 player.gd::GDScript::-1::1705821723::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8964880619866813159::1705824098::0::1::::<><>::uid://c2fnmx12u20md::::res://Art/PurpleNinja/SpriteSheet.png<>res://Player/player.gd
-::res://Scenes/::1705824098
-world.tscn::PackedScene::6270839133229576702::1705824098::0::1::::<><>::uid://d0ywjk1h2sf24::::res://Player/player.tscn<>uid://b2jekkj337beg::::res://Art/TileSets/TilesetFloor.png<>uid://bt8b5h1yppu7::::res://Art/TileSets/TilesetNature.png
+player.tscn::PackedScene::8964880619866813159::1705837956::0::1::::<><>::uid://c2fnmx12u20md::::res://Art/PurpleNinja/SpriteSheet.png<>res://Player/player.gd
+::res://Scenes/::1705888117
+FollowCamera.gd::GDScript::-1::1705835868::0::1::::<>Camera2D<>::
+world.tscn::PackedScene::6270839133229576702::1705888117::0::1::::<><>::uid://d0ywjk1h2sf24::::res://Player/player.tscn<>uid://b2jekkj337beg::::res://Art/TileSets/TilesetFloor.png<>uid://bt8b5h1yppu7::::res://Art/TileSets/TilesetNature.png<>uid://bayvy0866ikbt::::res://Art/AnimatedTiles/Plant/SpriteSheet16x16.png<>res://Scenes/FollowCamera.gd

@@ -1,4 +1,1 @@
-res://Player/player.tscn
 res://Scenes/world.tscn
-res://Player/player.gd
-res://Scenes/FollowCamera.gd
